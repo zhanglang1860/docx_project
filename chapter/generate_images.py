@@ -2,8 +2,6 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from connect_sql import connect_sql
-
 
 # def generate_images(save_path, turbine_list):
 def generate_images(save_path, power_np, efficiency_np):
