@@ -13,9 +13,13 @@ def connect_sql(*turbine_list):
         else:
             sql_str = sql_str + '\'%s\','
 
+# 第五章
     selectsql_tur = "SELECT * FROM tur_model WHERE tur_type_name in " + sql_str
     selectsql_power = "SELECT * FROM power_model WHERE tur_type_name in " + sql_str
     selectsql_efficiency = "SELECT * FROM efficiency_model WHERE tur_type_name in " + sql_str
+
+# 第八章
+
 
     cur.execute(selectsql_tur % turbine_list)
     data_tur = cur.fetchall()  # 所有
@@ -28,3 +32,7 @@ def connect_sql(*turbine_list):
     data_power_np = np.array(data_power)
     data_efficiency_np = np.array(data_efficiency)
     return data_tur_np, data_power_np, data_efficiency_np
+
+turbine_list = ['GW3.3-155', 'MY2.5-145', 'GW3.0-140', 'GW3.4-140', 'GW2.5-140']
+data_tur_np, data_power_np, data_efficiency_np=connect_sql(*turbine_list)
+print(data_tur_np)

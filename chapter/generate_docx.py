@@ -4,7 +4,7 @@ from generate_images import generate_images
 from docxtpl import DocxTemplate, InlineImage
 
 path_images = r"C:\Users\Administrator\PycharmProjects\docx_project\files\results"
-turbine_list = ['GW3.3-155', 'MY2.5-145', 'GW3.0-140', 'GW3.4-140', 'En2.5-141']
+turbine_list = ['GW3.3-155', 'MY2.5-145', 'GW3.0-140', 'GW3.4-140', 'GW2.5-140']
 
 tur_np, power_np, efficiency_np = connect_sql(*turbine_list)
 generate_images(path_images, power_np, efficiency_np)
