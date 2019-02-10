@@ -10,3 +10,12 @@ def foundation_args_chapter8(**kwargs):
         key_vaule.append(v)
     foundation_sql = "SELECT * FROM foundation_model WHERE " + sql_str
     return foundation_sql, key_vaule
+
+def p(*key_vaule):
+    return sql_foundation%key_vaule
+
+args_chapter8 = {'foundation_type': '扩展基础', 'maxload': 110000}
+sql_foundation, key_vaule = foundation_args_chapter8(**args_chapter8)
+print(sql_foundation,key_vaule)
+sql_foundation=p(*key_vaule)
+print(sql_foundation)

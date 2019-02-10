@@ -7,10 +7,10 @@ from connect_sql import connect_sql_chapter5, connect_sql_chapter8
 path_images = r"C:\Users\Administrator\PycharmProjects\docx_project\files\results"
 turbine_list = ['GW3.3-155', 'MY2.5-145', 'GW3.0-140', 'GW3.4-140', 'GW2.5-140']
 args_chapter8 = {'foundation_type': '扩展基础', 'maxload': 110000}
-print(type(args_chapter8))
+
 tur_np, power_np, efficiency_np = connect_sql_chapter5(*turbine_list)
-sql_foundation, key_vaule = foundation_args_chapter8(foundation_type='扩展基础', baseboard_r=11)
-# sql_foundation, key_vaule = foundation_args_chapter8(args_chapter8)
+# sql_foundation, key_vaule = foundation_args_chapter8(foundation_type='扩展基础', baseboard_r=11)
+sql_foundation, key_vaule = foundation_args_chapter8(**args_chapter8)
 foundation_np = connect_sql_chapter8(sql_foundation, *key_vaule)
 generate_images(path_images, power_np, efficiency_np)
 
