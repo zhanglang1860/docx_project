@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/generate_docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/generate_docx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/CR_chapter8_template.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/CR_chapter8_template.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/results/result_chapter5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/result_chapter5.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/results/result_chapter8.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/result_chapter8.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+            <state relative-caret-position="1338">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -347,7 +342,7 @@
       <workItem from="1549771315678" duration="14132000" />
       <workItem from="1549800164851" duration="3005000" />
       <workItem from="1549886289180" duration="7092000" />
-      <workItem from="1549929790923" duration="12259000" />
+      <workItem from="1549929790923" duration="12546000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -433,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549936648565</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 almost 100%">
+      <created>1549942466677</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1549942466678</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72535000" />
+    <option name="totallyTimeSpent" value="72822000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -450,6 +452,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -655,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+        <state relative-caret-position="1338">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
