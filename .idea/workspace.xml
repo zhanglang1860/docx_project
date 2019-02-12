@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter/generate_dict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter/generate_docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/generate_docx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/CR_chapter5_template.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/CR_chapter5_template.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/results/result_chapter5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/result_chapter5.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/results/result_chapter8.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/result_chapter8.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/副本风机功率及效率曲线-2018-6-12.xls" beforeDir="false" afterPath="$PROJECT_DIR$/files/副本风机功率及效率曲线-2018-6-12.xls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="65" column="9" selection-start-line="65" selection-end-line="65" selection-end-column="9" />
+            <state relative-caret-position="275">
+              <caret line="77" column="17" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="17" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -336,7 +331,7 @@
       <workItem from="1549771315678" duration="14132000" />
       <workItem from="1549800164851" duration="3005000" />
       <workItem from="1549886289180" duration="7092000" />
-      <workItem from="1549929790923" duration="19439000" />
+      <workItem from="1549929790923" duration="20196000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -436,11 +431,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549942567486</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="dox_project: 1.chapter 5 dynamic table and images  finished&#10;chapter 8 100%&#10;prepare annotation and class">
+      <created>1549956732160</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1549956732160</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79715000" />
+    <option name="totallyTimeSpent" value="80472000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -500,7 +502,8 @@
     <MESSAGE value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8" />
     <MESSAGE value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 100%" />
     <MESSAGE value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 almost 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 almost 100%" />
+    <MESSAGE value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;chapter 8 100%&#10;prepare annotation and class" />
+    <option name="LAST_COMMIT_MESSAGE" value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;chapter 8 100%&#10;prepare annotation and class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="65" column="9" selection-start-line="65" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="275">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

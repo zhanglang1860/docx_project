@@ -75,7 +75,6 @@ print("---------chapter 5 生成完毕--------")
 # **********************************************
 print("*" * 30)
 print("---------开始 chapter 8--------")
-
 Dict_8 = get_dict(foundation_np, dict_keys_chapter8)
 context_8 = write_context_numbers(Dict_8, *context_keys_chapter8, numbers=numbers)
 context['钢筋'] = float('%.02f' % (Dict_8['体积m3'] / 10))
