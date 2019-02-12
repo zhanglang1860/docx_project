@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter/generate_dict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter/generate_docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/generate_docx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/CR_chapter5_template.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/CR_chapter5_template.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/results/result_chapter5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/result_chapter5.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/results/result_chapter8.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/result_chapter8.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/副本风机功率及效率曲线-2018-6-12.xls" beforeDir="false" afterPath="$PROJECT_DIR$/files/副本风机功率及效率曲线-2018-6-12.xls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/foundation_args_chapter8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret column="28" selection-start-column="4" selection-end-column="28" />
+            <state relative-caret-position="825">
+              <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -37,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1338">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="200">
+              <caret line="65" column="9" selection-start-line="65" selection-end-line="65" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -47,22 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter/test2.py">
+        <entry file="file://$PROJECT_DIR$/chapter/generate_dict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter/generate_images.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#15#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -84,6 +78,8 @@
       <find>checklist</find>
       <find>vaule</find>
       <find>number</find>
+      <find>foundation_np</find>
+      <find>sql_foundation</find>
     </findStrings>
     <replaceStrings>
       <replace>turbine_list</replace>
@@ -107,15 +103,16 @@
         <option value="$PROJECT_DIR$/chapter/generate_images.py" />
         <option value="$PROJECT_DIR$/chapter/foundation_args_chapter8.py" />
         <option value="$PROJECT_DIR$/chapter/test2.py" />
+        <option value="$PROJECT_DIR$/chapter/generate_dict.py" />
         <option value="$PROJECT_DIR$/chapter/generate_docx.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="584" />
-    <option name="y" value="109" />
-    <option name="width" value="1022" />
-    <option name="height" value="716" />
+    <option name="x" value="560" />
+    <option name="y" value="92" />
+    <option name="width" value="1333" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -253,6 +250,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="generate_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="docx_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/generate_dict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="generate_docx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,28 +280,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/generate_docx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="docx_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,10 +310,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.generate_docx" />
+        <item itemvalue="Python.generate_dict" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.foundation_args_chapter8" />
         <item itemvalue="Python.connect_sql" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +336,7 @@
       <workItem from="1549771315678" duration="14132000" />
       <workItem from="1549800164851" duration="3005000" />
       <workItem from="1549886289180" duration="7092000" />
-      <workItem from="1549929790923" duration="12546000" />
+      <workItem from="1549929790923" duration="19439000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -435,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549942466678</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 almost 100%">
+      <created>1549942567486</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1549942567486</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72822000" />
+    <option name="totallyTimeSpent" value="79715000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -632,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter/foundation_args_chapter8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret column="28" selection-start-column="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -656,10 +650,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/foundation_args_chapter8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/generate_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1338">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="200">
+          <caret line="65" column="9" selection-start-line="65" selection-end-line="65" selection-end-column="9" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
