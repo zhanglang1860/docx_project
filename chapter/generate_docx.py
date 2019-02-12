@@ -88,27 +88,41 @@ def Dict_chapter_8(foundation_np):
 
 
 Dict_8 = Dict_chapter_8(foundation_np)
+print('****')
+print(Dict_8)
 
 keys = ['土方开挖', '石方开挖', '土石方回填', '体积m3', '垫层', '钢筋', '基础防水', '沉降观测']
+numbers = 32
 
 
-def Write_Dict_chapter_8(Dict_8, *args):
+def Write_Dict_chapter_8(Dict_8, *args, numbers):
     context = {}
+    context['numbers'] = numbers
     for i in args:
         key = i
+        key2 = i + 'numbers'
         value = Dict_8.get(i, None)
-        context[key] = value
         if value != None:
-            context[key] = round(Dict_8[key], 2)
+            value = float('%.02f' % Dict_8[key])
+            value2 = float('%.02f'% (Dict_8[key] * numbers))
+        else:
+            value = None
+            value2 = None
+        context[key] = value
+        context[key2] = value2
 
-    context['钢筋'] = round(Dict_8['体积m3'] / 10, 3)
+    context['钢筋'] = float('%.02f' % (Dict_8['体积m3'] / 10))
+    context['钢筋numbers'] = float('%.02f' % (Dict_8['体积m3'] / 10 * numbers))
     context['基础防水'] = 1
+    context['基础防水numbers'] = 1 * numbers
     context['沉降观测'] = 4
+    context['沉降观测numbers'] = 4 * numbers
+
     return context
 
 
-context = Write_Dict_chapter_8(Dict_8, *keys)
-
+context = Write_Dict_chapter_8(Dict_8, *keys, numbers=32)
+print(context)
 tpl = DocxTemplate(r'C:\Users\Administrator\PycharmProjects\docx_project\files\CR_chapter8_template.docx')
 tpl.render(context)
 tpl.save(r'C:\Users\Administrator\PycharmProjects\docx_project\files\results\result_chapter8.docx')
