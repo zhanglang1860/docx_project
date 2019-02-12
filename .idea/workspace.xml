@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 almost 100%">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter/foundation_args_chapter8.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/foundation_args_chapter8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter/generate_docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/generate_docx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/风机基础工程量_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/风机基础工程量_test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/CR_chapter8_template.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/CR_chapter8_template.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/results/result_chapter5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/result_chapter5.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/results/result_chapter8.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/result_chapter8.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/connect_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="-8">
               <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
@@ -34,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/foundation_args_chapter8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="31" selection-end-column="37" />
+            <state relative-caret-position="-8">
+              <caret column="28" selection-start-column="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+            <state relative-caret-position="404">
+              <caret line="103" column="48" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -55,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/generate_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
+            <state relative-caret-position="100">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
@@ -79,9 +78,11 @@
       <find>os</find>
       <find>data_name</find>
       <find>checklist</find>
+      <find>vaule</find>
     </findStrings>
     <replaceStrings>
       <replace>turbine_list</replace>
+      <replace>value</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -97,18 +98,18 @@
         <option value="$PROJECT_DIR$/chapter/get_turbine_model.py" />
         <option value="$PROJECT_DIR$/chapter/test2.py" />
         <option value="$PROJECT_DIR$/chapter/test.py" />
-        <option value="$PROJECT_DIR$/chapter/foundation_args_chapter8.py" />
         <option value="$PROJECT_DIR$/chapter/connect_sql.py" />
         <option value="$PROJECT_DIR$/chapter/generate_images.py" />
+        <option value="$PROJECT_DIR$/chapter/foundation_args_chapter8.py" />
         <option value="$PROJECT_DIR$/chapter/generate_docx.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="635" />
-    <option name="y" value="35" />
-    <option name="width" value="1880" />
-    <option name="height" value="980" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1040" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -152,7 +153,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -227,20 +228,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_docx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="foundation_args_chapter8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/generate_docx.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/foundation_args_chapter8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,20 +247,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_turbine_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generate_docx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/get_turbine_model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/generate_docx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,10 +313,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.generate_docx" />
+        <item itemvalue="Python.foundation_args_chapter8" />
         <item itemvalue="Python.connect_sql" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.get_turbine_model" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +339,7 @@
       <workItem from="1549771315678" duration="14132000" />
       <workItem from="1549800164851" duration="3005000" />
       <workItem from="1549886289180" duration="7092000" />
-      <workItem from="1549929790923" duration="707000" />
+      <workItem from="1549929790923" duration="6663000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -409,11 +404,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549894047186</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 almost 100%">
+      <created>1549930531056</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1549930531057</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 almost 100%">
+      <created>1549930944930</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1549930944930</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60983000" />
+    <option name="totallyTimeSpent" value="66939000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -425,9 +434,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18297587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -442,7 +451,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.27794117" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32941177" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49865952" visible="true" weight="0.47058824" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49865952" visible="true" weight="0.32924107" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,21 +616,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/connect_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="-8">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/foundation_args_chapter8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="31" selection-end-column="37" />
+        <state relative-caret-position="-8">
+          <caret column="28" selection-start-column="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="100">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
@@ -631,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+        <state relative-caret-position="404">
+          <caret line="103" column="48" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
