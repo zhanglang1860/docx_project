@@ -70,7 +70,7 @@ for i in range(0, 2):
     value = InlineImage(tpl, os.path.join(path_images, '%s.png') % png_box[i])
     context_5[key] = value
 tpl.render(context_5)
-tpl.save(r'C:\Users\Administrator\PycharmProjects\docx_project\files\results\result_chapter5.docx')
+tpl.save(r'C:\Users\Administrator\PycharmProjects\docx_project\files\results\result_chapter5-a.docx')
 print("---------chapter 5 生成完毕--------")
 # **********************************************
 print("*" * 30)
@@ -88,5 +88,5 @@ context_8['沉降观测numbers'] = 4 * numbers
 tpl = DocxTemplate(r'C:\Users\Administrator\PycharmProjects\docx_project\files\CR_chapter8_template.docx')
 tpl.render(context_8)
 print(context_8)
-tpl.save(r'C:\Users\Administrator\PycharmProjects\docx_project\files\results\result_chapter8_t.docx')
+tpl.save(r'C:\Users\Administrator\PycharmProjects\docx_project\files\results\result_chapter8_a.docx')
 print("---------chapter 8 生成完毕--------")

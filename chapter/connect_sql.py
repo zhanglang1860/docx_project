@@ -14,9 +14,9 @@ def connect_sql_chapter5(*turbine_list):
             sql_str = sql_str + '\'%s\','
 
     # 第五章
-    selectsql_tur = "SELECT * FROM tur_model WHERE tur_type_name in " + sql_str
-    selectsql_power = "SELECT * FROM power_model WHERE tur_type_name in " + sql_str
-    selectsql_efficiency = "SELECT * FROM efficiency_model WHERE tur_type_name in " + sql_str
+    selectsql_tur = "SELECT * FROM turbine_model WHERE tur_name in " + sql_str
+    selectsql_power = "SELECT * FROM power_model WHERE tur_name in " + sql_str
+    selectsql_efficiency = "SELECT * FROM efficiency_model WHERE tur_name in " + sql_str
 
     cur.execute(selectsql_tur % turbine_list)
     data_tur = cur.fetchall()  # 所有
