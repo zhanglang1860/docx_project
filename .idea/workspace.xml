@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/connect_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/connect_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/generate_docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/generate_docx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/00641 - 副本.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/00641.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/53787 气站数据.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/53787.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/efficiency_select.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/foundation_select.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/power_select.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/power_select.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/results/efficiency.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/efficiency.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/results/powers.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/results/powers.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/results/result_chapter5.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/results/result_chapter8.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/tur_select.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/副本风机功率及效率曲线-2018-6-12.xls" beforeDir="false" afterPath="$PROJECT_DIR$/files/副本风机功率及效率曲线-2018-6-12.xls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +69,9 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -345,7 +332,7 @@
       <workItem from="1549929790923" duration="20196000" />
       <workItem from="1550020141125" duration="10354000" />
       <workItem from="1550032721056" duration="481000" />
-      <workItem from="1550034621090" duration="3796000" />
+      <workItem from="1550034621090" duration="4037000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -459,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550035863659</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="prepare annotation others def and learn class">
+      <created>1550051550297</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1550051550297</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95103000" />
+    <option name="totallyTimeSpent" value="95344000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -524,7 +518,8 @@
     <MESSAGE value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 100%" />
     <MESSAGE value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;start chapter 8 almost 100%" />
     <MESSAGE value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;chapter 8 100%&#10;prepare annotation and class" />
-    <option name="LAST_COMMIT_MESSAGE" value="dox_project: 1.chapter 5 dynamic table and images  finished&#10;chapter 8 100%&#10;prepare annotation and class" />
+    <MESSAGE value="prepare annotation others def and learn class" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepare annotation others def and learn class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
