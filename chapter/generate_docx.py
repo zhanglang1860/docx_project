@@ -76,15 +76,17 @@ print("---------chapter 5 生成完毕--------")
 print("*" * 30)
 print("---------开始 chapter 8--------")
 Dict_8 = get_dict(foundation_np, dict_keys_chapter8)
+print(Dict_8)
 context_8 = write_context_numbers(Dict_8, *context_keys_chapter8, numbers=numbers)
-context['钢筋'] = float('%.02f' % (Dict_8['体积m3'] / 10))
-context['钢筋numbers'] = float('%.02f' % (Dict_8['体积m3'] / 10 * numbers))
-context['基础防水'] = 1
-context['基础防水numbers'] = 1 * numbers
-context['沉降观测'] = 4
-context['沉降观测numbers'] = 4 * numbers
+context_8['钢筋'] = float('%.02f' % (float(Dict_8['体积m3']) / 10))
+context_8['钢筋numbers'] = float('%.02f' % (float(Dict_8['体积m3']) / 10 * numbers))
+context_8['基础防水'] = 1
+context_8['基础防水numbers'] = 1 * numbers
+context_8['沉降观测'] = 4
+context_8['沉降观测numbers'] = 4 * numbers
 
 tpl = DocxTemplate(r'C:\Users\Administrator\PycharmProjects\docx_project\files\CR_chapter8_template.docx')
 tpl.render(context_8)
-tpl.save(r'C:\Users\Administrator\PycharmProjects\docx_project\files\results\result_chapter8.docx')
+print(context_8)
+tpl.save(r'C:\Users\Administrator\PycharmProjects\docx_project\files\results\result_chapter8_t.docx')
 print("---------chapter 8 生成完毕--------")

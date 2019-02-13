@@ -46,7 +46,7 @@ def write_context_numbers(dict, *context_keys, numbers):
         value = dict.get(i, None)
         if value != None:
             value = float('%.02f' % dict[key])
-            value_numbers = float('%.02f' % (dict[key] * numbers))
+            value_numbers = float('%.02f' % (float(dict[key]) * numbers))
         else:
             value = None
             value_numbers = None
