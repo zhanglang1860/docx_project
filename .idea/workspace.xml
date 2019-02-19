@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/csv_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/SQL数据库/tur.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/SQL数据库/tur.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testcsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testcsv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/docx_project$test.coverage" NAME="test Coverage Results" MODIFIED="1549709815726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter" />
+    <SUITE FILE_PATH="coverage/docx_project$csv_file.coverage" NAME="csv_file Coverage Results" MODIFIED="1550228960950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/docx_project$chapter_five_power_eff_dynamic.coverage" NAME="chapter_five_power_eff_dynamic Coverage Results" MODIFIED="1549699010635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter" />
   </component>
   <component name="FileEditorManager">
@@ -19,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/connect_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="300">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -28,13 +32,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="800">
+              <caret line="37" column="54" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="54" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/csv_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,6 +75,7 @@
       <find>number</find>
       <find>foundation_np</find>
       <find>sql_foundation</find>
+      <find>a</find>
     </findStrings>
     <replaceStrings>
       <replace>turbine_list</replace>
@@ -85,14 +102,16 @@
         <option value="$PROJECT_DIR$/chapter/foundation_args_chapter8.py" />
         <option value="$PROJECT_DIR$/chapter/test2.py" />
         <option value="$PROJECT_DIR$/chapter/generate_dict.py" />
-        <option value="$PROJECT_DIR$/chapter/connect_sql.py" />
         <option value="$PROJECT_DIR$/chapter/generate_docx.py" />
+        <option value="$PROJECT_DIR$/test/testcsv.py" />
+        <option value="$PROJECT_DIR$/chapter/connect_sql.py" />
+        <option value="$PROJECT_DIR$/test/csv_file.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="560" />
-    <option name="y" value="92" />
+    <option name="x" value="-268" />
+    <option name="y" value="18" />
     <option name="width" value="1333" />
     <option name="height" value="937" />
   </component>
@@ -112,27 +131,6 @@
               <item name="docx_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="docx_project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="docx_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docx_project" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docx_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docx_project" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docx_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docx_project" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docx_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docx_project" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -143,7 +141,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -173,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generate_docx">
+  <component name="RunManager" selected="Python.csv_file">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="connect_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="csv_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,34 +202,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/connect_sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="foundation_args_chapter8" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="docx_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/foundation_args_chapter8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/csv_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,6 +242,9 @@
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -285,6 +264,9 @@
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -300,13 +282,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testcsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="docx_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testcsv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.csv_file" />
+        <item itemvalue="Python.testcsv" />
         <item itemvalue="Python.generate_docx" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.generate_dict" />
-        <item itemvalue="Python.foundation_args_chapter8" />
-        <item itemvalue="Python.connect_sql" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +336,22 @@
       <workItem from="1549929790923" duration="20196000" />
       <workItem from="1550020141125" duration="10354000" />
       <workItem from="1550032721056" duration="481000" />
-      <workItem from="1550034621090" duration="4037000" />
+      <workItem from="1550034621090" duration="4740000" />
+      <workItem from="1550055367521" duration="128000" />
+      <workItem from="1550055510580" duration="13000" />
+      <workItem from="1550109635578" duration="2976000" />
+      <workItem from="1550138204508" duration="602000" />
+      <workItem from="1550193438972" duration="44000" />
+      <workItem from="1550213521448" duration="4578000" />
+      <workItem from="1550221375130" duration="6135000" />
+      <workItem from="1550229593577" duration="1447000" />
+      <workItem from="1550290699156" duration="1205000" />
+      <workItem from="1550292099258" duration="3737000" />
+      <workItem from="1550296002591" duration="7602000" />
+      <workItem from="1550398902505" duration="2220000" />
+      <workItem from="1550455856526" duration="606000" />
+      <workItem from="1550457896003" duration="5304000" />
+      <workItem from="1550481471986" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -453,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550051550297</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="prepare annotation others def and learn class">
+      <created>1550051748827</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550051748827</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95344000" />
+    <option name="totallyTimeSpent" value="132651000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -470,15 +496,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290735" />
@@ -486,8 +511,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5844504" weight="0.32794118" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.32924107" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32941177" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4978678" visible="true" weight="0.27901787" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28348213" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4978678" weight="0.3247768" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -549,16 +574,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/doc_project/Lib/site-packages/psycopg2/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/test/出图/no2_rel_study.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="35" selection-start-line="35" selection-end-line="39" selection-end-column="38" />
-          <folding>
-            <element signature="e#385#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/dynamic_table.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -577,13 +592,6 @@
     <entry file="file://$PROJECT_DIR$/test/test_tpl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-124" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testcsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/untitled.py">
@@ -679,17 +687,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/出图/speedData1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/出图/no2_rel_study.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="67" />
+          <folding>
+            <element signature="e#385#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test02.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_dict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/connect_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="300">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -698,10 +738,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="800">
+          <caret line="37" column="54" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="54" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/csv_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
