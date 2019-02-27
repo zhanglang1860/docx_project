@@ -52,7 +52,7 @@ print(wind_10min_1h, wind_3s_1h)
 data['wind_10min_1h'] = wind_10min_1h
 data['wind_3s_1h'] = wind_3s_1h
 
-k = data.sort_values(by="80m-Ws", ascending=False)
+k = data.sort_values(by="Speed 80 m B [m/s]", ascending=False)
 print(k)
 k_10min_1h = k.iloc[0:100]['wind_10min_1h'].mean()
 k_3s_1h = k.iloc[0:100]['wind_3s_1h'].mean()

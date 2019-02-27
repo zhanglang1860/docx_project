@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-basestation = r"C:\Users\Administrator\PycharmProjects\docx_project\chapter\风速风频2.xlsx"
+basestation = r"C:\Users\Administrator\PycharmProjects\docx_project\chapter\风速风频.xlsx"
 basestation1 = r"C:\Users\Administrator\PycharmProjects\docx_project\chapter\风速风频1.xlsx"
 
 data = pd.read_excel(basestation)
@@ -47,12 +47,25 @@ for i in range(0, len(wind_10min_D)):
     else:
         sector[i] = 999
 data['sector'] = sector
+data['sd_sd'] = wind_10min_SD / wind_10min
+statistics_times_times = data.groupby(by=['sector']).size()
+statistics_times_times = statistics_times_times.reset_index(name='times')
 
-gp = data.groupby(by=['sector'])
-ne=gp.size()
-ne=ne.reset_index(name='times')
-print(ne['times'].sum())
 
-# for i in range(0, len(wind_10min_D)):
-#     fu[i]=
-#     wind_10min_D[i]
+def frequency(x):
+    return (x / statistics_times_times['times'].sum())
+
+
+def ti(x):
+    return (x + statistics_ti['sd_sd'].std() * 1.28)
+
+
+result = [i for i in range(0, 20)]
+for i in range(0, 20):
+    statistics_ti = data.loc[data['wind_speed'] == i+1]
+    print(i,statistics_ti['sd_sd'].mean(),statistics_ti['sd_sd'].std() * 1.28)
+    result[i] = statistics_ti['sd_sd'].mean() + statistics_ti['sd_sd'].std() * 1.28
+
+statistics_times_times['frequency'] = statistics_times_times['times'].map(frequency)
+
+print(result)
