@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/csv_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/gustiness_factor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/wind_SF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/阵风系数.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/SQL数据库/tur.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/SQL数据库/tur.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testcsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testcsv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/docx_project$gustiness_factor.coverage" NAME="gustiness_factor Coverage Results" MODIFIED="1551232345248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter" />
     <SUITE FILE_PATH="coverage/docx_project$test.coverage" NAME="test Coverage Results" MODIFIED="1549709815726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter" />
     <SUITE FILE_PATH="coverage/docx_project$csv_file.coverage" NAME="csv_file Coverage Results" MODIFIED="1550228960950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/docx_project$chapter_five_power_eff_dynamic.coverage" NAME="chapter_five_power_eff_dynamic Coverage Results" MODIFIED="1549699010635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter" />
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="37" column="54" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="54" />
+            <state relative-caret-position="1400">
+              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -44,13 +45,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/csv_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="1450">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter/gustiness_factor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter/wind_SF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="55" selection-start-line="55" selection-start-column="2" selection-end-line="57" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,11 +101,14 @@
       <find>foundation_np</find>
       <find>sql_foundation</find>
       <find>a</find>
+      <find>`</find>
+      <find>or</find>
     </findStrings>
     <replaceStrings>
       <replace>turbine_list</replace>
       <replace>value</replace>
       <replace>numbers</replace>
+      <replace>and</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -106,12 +134,14 @@
         <option value="$PROJECT_DIR$/test/testcsv.py" />
         <option value="$PROJECT_DIR$/chapter/connect_sql.py" />
         <option value="$PROJECT_DIR$/test/csv_file.py" />
+        <option value="$PROJECT_DIR$/chapter/wind_SF.py" />
+        <option value="$PROJECT_DIR$/chapter/gustiness_factor.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-268" />
-    <option name="y" value="18" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="366" />
+    <option name="y" value="79" />
     <option name="width" value="1333" />
     <option name="height" value="937" />
   </component>
@@ -131,6 +161,16 @@
               <item name="docx_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="docx_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="docx_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docx_project" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docx_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docx_project" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -139,9 +179,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -171,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.csv_file">
+  <component name="RunManager" selected="Python.gustiness_factor">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,28 +257,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="docx_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/generate_dict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="generate_docx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,20 +279,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gustiness_factor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/gustiness_factor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,13 +320,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wind_SF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="docx_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter/wind_SF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gustiness_factor" />
+        <item itemvalue="Python.wind_SF" />
         <item itemvalue="Python.csv_file" />
         <item itemvalue="Python.testcsv" />
         <item itemvalue="Python.generate_docx" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.generate_dict" />
       </list>
     </recent_temporary>
   </component>
@@ -352,6 +387,10 @@
       <workItem from="1550455856526" duration="606000" />
       <workItem from="1550457896003" duration="5304000" />
       <workItem from="1550481471986" duration="7000" />
+      <workItem from="1551167684203" duration="7957000" />
+      <workItem from="1551230018134" duration="7363000" />
+      <workItem from="1551237560190" duration="1135000" />
+      <workItem from="1551254602362" duration="5521000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -483,7 +522,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132651000" />
+    <option name="totallyTimeSpent" value="154627000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -495,9 +534,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="366" y="79" width="1333" height="937" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27651218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -512,7 +551,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.28348213" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4978678" weight="0.3247768" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4978678" visible="true" weight="0.37235367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -726,6 +765,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter/connect_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -738,8 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="54" />
+        <state relative-caret-position="1400">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -748,10 +794,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/csv_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="1450">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/wind_SF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="55" selection-start-line="55" selection-start-column="2" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/gustiness_factor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
