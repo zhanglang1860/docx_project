@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/gustiness_factor.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/gustiness_factor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter/wind_SF.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/wind_SF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/阵风系数.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/阵风系数.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/阵风系数1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/风速风频2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/风速风频2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter/风速风频.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/风速风频.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter/风速风频2.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/connect_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="300">
               <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -37,21 +35,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1525">
-              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/csv_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
+            <state relative-caret-position="1450">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -63,8 +49,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/gustiness_factor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="1425">
+              <caret line="58" column="4" selection-start-line="58" selection-end-line="58" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter/wind_SF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -73,13 +71,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter/wind_SF.py">
+        <entry file="file://$PROJECT_DIR$/chapter/风速风频1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1625">
-              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="309" selection-start-column="1" selection-end-column="309" />
             </state>
           </provider>
         </entry>
@@ -148,8 +143,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="366" />
-    <option name="y" value="79" />
+    <option name="x" value="660" />
+    <option name="y" value="28" />
     <option name="width" value="1333" />
     <option name="height" value="937" />
   </component>
@@ -335,6 +330,9 @@
       <module name="docx_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -403,7 +401,10 @@
       <workItem from="1551237560190" duration="1135000" />
       <workItem from="1551254602362" duration="5630000" />
       <workItem from="1551265454106" duration="5700000" />
-      <workItem from="1551272918566" duration="2216000" />
+      <workItem from="1551272918566" duration="2520000" />
+      <workItem from="1551316799853" duration="11000000" />
+      <workItem from="1551336315656" duration="2307000" />
+      <workItem from="1551581020983" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -538,11 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551260992899</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="prepare annotation others def and learn class">
+      <created>1551275389965</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1551275389965</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162652000" />
+    <option name="totallyTimeSpent" value="176382000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -555,9 +563,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -793,19 +800,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter/connect_sql.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/docx_project/Lib/site-packages/pandas/core/internals/managers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="1148" selection-start-line="1148" selection-end-line="1148" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/generate_docx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
+        <state relative-caret-position="23">
           <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -813,9 +817,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/connect_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/csv_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
+        <state relative-caret-position="1450">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -825,28 +839,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/gustiness_factor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="1425">
+          <caret line="58" column="4" selection-start-line="58" selection-end-line="58" selection-end-column="4" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/docx_project/Lib/site-packages/pandas/core/internals/managers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="1148" selection-start-line="1148" selection-end-line="1148" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/wind_SF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        <state relative-caret-position="1700">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/风速风频1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="309" selection-start-column="1" selection-end-column="309" />
         </state>
       </provider>
     </entry>
