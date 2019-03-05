@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/wind_SF.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/wind_SF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/风速风频.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/风速风频.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/风速风频2.xlsx" beforeDir="false" />
-    </list>
+    <list default="true" id="1d25d1cb-e0b5-4b66-9dd8-d552089282fa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter/gustiness_factor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
+            <state relative-caret-position="1450">
               <caret line="58" column="4" selection-start-line="58" selection-end-line="58" selection-end-column="4" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -61,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/wind_SF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
+            <state relative-caret-position="1725">
               <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -70,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter/风速风频1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -405,6 +400,7 @@
       <workItem from="1551316799853" duration="11000000" />
       <workItem from="1551336315656" duration="2307000" />
       <workItem from="1551581020983" duration="119000" />
+      <workItem from="1551754541555" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="1st time to dox_project">
       <created>1549517398271</created>
@@ -550,7 +546,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176382000" />
+    <option name="totallyTimeSpent" value="177024000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -563,8 +559,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -579,7 +576,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.28348213" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.4978678" visible="true" weight="0.324295" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4978678" visible="true" weight="0.21149674" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -837,19 +834,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter/gustiness_factor.py">
+    <entry file="file://$PROJECT_DIR$/chapter/风速风频1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="58" column="4" selection-start-line="58" selection-end-line="58" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="309" selection-start-column="1" selection-end-column="309" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter/wind_SF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
+        <state relative-caret-position="1725">
           <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -857,10 +851,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter/风速风频1.txt">
+    <entry file="file://$PROJECT_DIR$/chapter/gustiness_factor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="309" selection-start-column="1" selection-end-column="309" />
+        <state relative-caret-position="1450">
+          <caret line="58" column="4" selection-start-line="58" selection-end-line="58" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
